@@ -1,0 +1,32 @@
+{
+  "name": "real_api_fmt",
+  "version": "1.0.0",
+  "description": "This is a RealAPI plugin for filament rendering. Now you can render filament scene at runtime by using API calls.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Realistic3D/real_api_fmt.git"
+  },
+  "keywords": [
+    "R3D",
+    "render",
+    "filament",
+    "RealAPI"
+  ],
+  "author": "USMANHEART",
+  "license": "CSL",
+  "bugs": {
+    "url": "https://github.com/Realistic3D/real_api_fmt/issues"
+  },
+  "homepage": "https://github.com/Realistic3D/real_api_fmt#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "filament": "^1.36.0"
+  },
+  "types": "./index.d.ts"
+}
